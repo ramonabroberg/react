@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import StatefulGreeting from "./components/StatefulGreeting";
+import EventsClass from "./components/EventsClass";
+import EventsFunctional from "./components/EventsFunctional";
 
 function App() {
   return (
     <div className="App">
-      <StatefulGreeting />
-      </div>
+        <EventsClass />
+        <EventsFunctional />
+    </div>
   );
 }
 
